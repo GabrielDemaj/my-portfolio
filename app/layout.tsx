@@ -9,10 +9,10 @@ export const metadata: Metadata = {
     default: "My Portfolio",
     template: "%s",
   },
-  description: "Frontend Enigeer (React.js / React Native)",
+  description: "Frontend Engineer (React.js / React Native)",
   openGraph: {
     title: "My Portfolio",
-    description: "Frontend Enigeer (React.js / React Native)",
+    description: "Frontend Engineer (React.js / React Native)",
     locale: "en-US",
     type: "website",
   },
