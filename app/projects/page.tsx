@@ -53,13 +53,12 @@ const allProjects: Project[] = [
     link: "https://www.pro-rks.com/?page=1",
   },
   {
-    slug: "fresh-boutique",
-    title: "Fresh Boutique",
-    description:
-      "Coming soon: A stylish online boutique for exclusive fashion.",
-    date: "",
+    slug: "socialist",
+    title: "SOCIALIST (Website)",
+    description: "Swiss agency creating videos and ads to grow brands.",
+    date: "2025-08-22",
     published: true,
-    link: "https://freshboutique.ct.ws/",
+    link: "https://www.socialist.ch/",
   },
 ];
 
@@ -85,7 +84,7 @@ export default function ProjectsPage() {
     )
     .sort(
       (a, b) =>
-        new Date(b.date as any).getTime() - new Date(a.date as any).getTime()
+        new Date(a.date as any).getTime() - new Date(b.date as any).getTime()
     );
 
   return (
