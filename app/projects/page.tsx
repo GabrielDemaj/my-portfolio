@@ -104,6 +104,33 @@ const allProjects: Project[] = [
     published: true,
     link: "https://fajnd.app/",
   },
+  {
+    slug: "kush-mendon-qe",
+    title: "Kush Mendon Qe (Website)",
+    description:
+      "A modern, responsive website built to showcase the brand and engage its audience.",
+    date: "2026-06-04",
+    published: true,
+    link: "https://www.kushmendoniqe.com",
+  },
+  {
+    slug: "marashi-care-consulting",
+    title: "Marashi Care Consulting (Website)",
+    description:
+      "A Swiss care consulting platform presenting services and connecting clients with support.",
+    date: "2026-06-25",
+    published: true,
+    link: "https://marashicareconsulting.ch",
+  },
+  {
+    slug: "home-appliance-experts",
+    title: "Home Appliance Experts (Website)",
+    description:
+      "A service website for home appliance repair and maintenance experts.",
+    date: "2026-07-16",
+    published: true,
+    link: "https://www.homeappliance-experts.com",
+  },
 ];
 
 // For this example, we'll assume all view counts are zero.
